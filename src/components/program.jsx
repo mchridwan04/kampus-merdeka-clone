@@ -1,4 +1,4 @@
-import { AiOutlineDown } from 'react-icons/ai';
+import { BsChevronDown } from 'react-icons/Bs';
 
 
 const program = [
@@ -33,7 +33,7 @@ export default function Program() {
                                                       >
                                                             {item.name}
                                                             {index !== program.length - 1 && (
-                                                                  <AiOutlineDown className='h-5 w-5 items-center ' /> // Add the arrow-down icon for all items except the last one
+                                                                  <BsChevronDown className='h-5 w-5 items-center ' /> // Add the arrow-down icon for all items except the last one
                                                             )}
                                                       </a>
                                                 ))}
