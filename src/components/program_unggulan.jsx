@@ -1,9 +1,9 @@
 export default function ProgramUnggulan() {
-      return (
-            <>
-                  <div className="px-36 my-20">
-                        <h1 className="font-semibold text-5xl">Program Unggulan</h1>
-                  </div>
-            </>
-      )
+   return (
+      <>
+         <div className="p-4">
+            <h1 className="font-semibold text-3xl mt-4">Program Unggulan</h1>
+         </div>
+      </>
+   )
 }
